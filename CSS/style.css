@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'SFProDisplay',
+    sans-serif;
+    outline: none;
+}
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    margin: 30px;
+    width: 277px;
+    height: 59px;
+    padding: 20px;
+}
+.count{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+button{
+    margin: 0 auto;
+    width: 277px;
+    height: 59px;
+    background: #4200FF;
+    border: 2px solid #4200FF;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    
+}
+.must{
+    border: 3px solid #4200FF;
+}
+.error{
+    border: 3px solid red;
+}
+.text{
+    display: block;
+    margin-left: 45px;
+    font-size: 12px;
+    margin-bottom: -10px;
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    color: red;
+    display: none;
+
+}
+.img{
+    display: none;
+    width: 16px;
+    position: absolute;
+    top: 50px;
+}
+.img2{
+    display: block;
+    width: 16px;
+    position: absolute;
+    top: 50px;
+}
+.text2{
+    display: block;
+    margin-left: 45px;
+    font-size: 12px;
+    margin-bottom: -10px;
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    color: red;
+}
